@@ -10,6 +10,7 @@
         <link href="<?php echo asset_url() ?>css/ratchet-theme-ios.min.css" rel="stylesheet" type="text/css"/>
         <link href="<?php echo asset_url() ?>css/docs.min.css" rel="stylesheet" type="text/css"/>
         <link href="<?php echo asset_url() ?>css/pygments-manni.css" rel="stylesheet" type="text/css"/>
+        <link href="<?php echo asset_url() ?>font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css"/>
     </head>
     <body>
         <header style="height: 11%;" class="bar bar-nav">
