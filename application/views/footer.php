@@ -5,18 +5,26 @@
     </a>
     <a class="tab-item" href="#">
         <span class="icon icon-person"></span>
-        <span class="tab-label">Profile</span>
+        <span class="tab-label">Hotels</span>
     </a>
     <a class="tab-item" href="#">
-        <span class="icon icon-star-filled"></span>
-        <span class="tab-label">Favorites</span>
+        <span class="fa fa-plane"></span>
+        <span class="tab-label">Flights</span>
     </a>
     <a class="tab-item" href="#">
         <span class="icon icon-search"></span>
-        <span class="tab-label">Search</span>
+        <span class="tab-label">Cars</span>
     </a>
     <a class="tab-item" href="#">
         <span class="icon icon-gear"></span>
-        <span class="tab-label">Settings</span>
+        <span class="tab-label">Cruises</span>
+    </a>
+    <a class="tab-item" href="#">
+        <span class="icon icon-gear"></span>
+        <span class="tab-label">Videos</span>
+    </a>
+    <a class="tab-item" href="#">
+        <span class="icon icon-gear"></span>
+        <span class="tab-label">News</span>
     </a>
 </nav>
