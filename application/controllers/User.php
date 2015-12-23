@@ -15,7 +15,7 @@ class User extends CI_Controller {
     }
     
     public function SearchResult(){
-        $data = array('title' => 'Main', 'content' => 'User/SearchResult', 'view_data' => 'blank');
+        $data = array('title' => 'Search', 'content' => 'User/SearchResult', 'view_data' => 'blank');
         $this->load->view('template2', $data);
     }
 
