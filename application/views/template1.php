@@ -5,7 +5,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="description" content="">
         <meta name="author" content="">
-<link href="<?php echo asset_url() ?>css/ratchet-theme-android.min.css" rel="stylesheet" type="text/css"/>
+        <link href="<?php echo asset_url() ?>css/ratchet-theme-android.min.css" rel="stylesheet" type="text/css"/>
 <script src="<?php echo asset_url() ?>js/ratchet.min.js" type="text/javascript"></script>
         <title><?php echo $title ?></title>
         <?php $this->load->view('links'); ?>

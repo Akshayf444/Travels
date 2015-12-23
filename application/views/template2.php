@@ -10,6 +10,7 @@
         <link href="<?php echo asset_url() ?>css/app.css" rel="stylesheet" type="text/css"/>
         <link href="<?php echo asset_url() ?>css/pygments-manni.css" rel="stylesheet" type="text/css"/>
         <link href="<?php echo asset_url() ?>font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css"/>
+        <script src="<?php echo asset_url() ?>js/jquery.js" type="text/javascript"></script>
     </head>
     <body>
         <header class="bar bar-nav" style="height: 9%">
@@ -21,7 +22,7 @@
             <?php $this->load->view($content, $view_data); ?>
         </div>
         <?php $this->load->view('footer'); ?>
-        <script src="<?php echo asset_url() ?>js/jquery.js" type="text/javascript"></script>
+
         <script src="<?php echo asset_url() ?>js/ratchet.min.js" type="text/javascript"></script>
         <script src="<?php echo asset_url() ?>js/segmented-controllers.js" type="text/javascript"></script>
         <script src="<?php echo asset_url() ?>js/modals.js" type="text/javascript"></script>
