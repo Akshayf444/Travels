@@ -12,6 +12,11 @@
         <link href="<?php echo asset_url() ?>css/pygments-manni.css" rel="stylesheet" type="text/css"/>
         <link href="<?php echo asset_url() ?>font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css"/>
         <script src="<?php echo asset_url() ?>js/jquery.js" type="text/javascript"></script>
+        <style>
+            .foot:hover{
+                cursor: pointer;
+            }
+        </style>
     </head>
     <body>
         <header class="bar bar-nav" style="height: 9%">

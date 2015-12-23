@@ -30,7 +30,7 @@
 <ul class="table-view">
   <li class="table-view-divider">Popular Places</li>
 </ul>
-
+<div class="row" style="margin-bottom:25px;">
 <div id="owl-demo2" class="owl-carousel owl-theme">
     <div class="item"> 
         <div class="panel panel-default">
@@ -117,6 +117,7 @@
         </div>
 
     </div>
+</div>
 </div>
 
 <script src="<?php echo asset_url() ?>js/owl.carousel.min.js" type="text/javascript"></script>
