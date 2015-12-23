@@ -10,9 +10,9 @@ class User extends CI_Controller {
         
     }
 
-    public function main() {
+    public function index() {
         
-        $data = array('title' => 'Login', 'content' => 'employee/registration', 'view_data' => $check);
+        $data = array('title' => 'Main', 'content' => 'User/Main', 'view_data' => 'blank');
         $this->load->view('template2', $data);
     }
 

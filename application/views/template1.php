@@ -5,7 +5,8 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="description" content="">
         <meta name="author" content="">
-
+<link href="<?php echo asset_url() ?>css/ratchet-theme-android.min.css" rel="stylesheet" type="text/css"/>
+<script src="<?php echo asset_url() ?>js/ratchet.min.js" type="text/javascript"></script>
         <title><?php echo $title ?></title>
         <?php $this->load->view('links'); ?>
     </head>
@@ -14,9 +15,6 @@
         <div class="section" >
             <div class="container-fluid" >
                 <div class="row">
-                    <div class="col-lg-2">
-                        <?php $CI =& get_instance(); $this->load->view('Sidebar', $CI->loadSidebar()); ?>
-                    </div>
                     <div class="col-lg-10">
                         <?php $this->load->view($content, $view_data); ?>
                     </div>
@@ -25,7 +23,6 @@
         </div>
         <?php $this->load->view('footer'); ?>
 
-        <!-- Bootstrap Core JavaScript -->
-        <script src="<?php echo asset_url() ?>/js/bootstrap.min.js"></script>    
+        <!-- Bootstrap Core JavaScript -->    
     </body>
 </html>
