@@ -12,7 +12,7 @@
         <link href="<?php echo asset_url() ?>font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css"/>
     </head>
     <body>
-        <header class="bar bar-nav">
+        <header class="bar bar-nav" style="height: 9%">
             <h1 class="title" >
                 <img style="height: 99%" src="<?php echo asset_url() ?>images/travels.png" alt=""/>
             </h1>
